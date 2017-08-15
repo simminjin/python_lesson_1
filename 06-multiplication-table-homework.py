@@ -8,7 +8,7 @@ if dan < 2:
     dan = int(input("몇 단을 출력하시겠습니까?"))
     for num in range(1, 10):
         print("{} * {} = {}".format(dan, num, dan * num))
-elif dan >=10:
+elif dan >= 10:
     print("9단까지 입력 가능합니다")
     dan = int(input("몇 단을 출력하시겠습니까?"))
     for num in range(1, 10):
